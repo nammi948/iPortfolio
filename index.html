@@ -1,0 +1,702 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+        integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-sm-3">
+
+
+                <div class="toggle-btn-container d-sm-none my-2">
+                    <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#mobileSidebar"
+                        aria-controls="mobileSidebar" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="bi bi-list"></i> Menu
+                    </button>
+                </div>
+
+
+                <div class="collapse d-sm-block sidebar bg-dark p-3 position-sticky top-0" id="mobileSidebar"
+                    style="height: 100vh; overflow-y: auto; right: 0;">
+
+                    <div class="text-center mb-3">
+                        <img src="1.jpg" class="rounded-circle img-fluid" alt="Nammi Vamsi"
+                            style="width: 100px; height: 100px;" />
+                        <h5 class="mt-2 text-white">Nammi Vamsi</h5>
+
+
+                        <div class="social-links text-center">
+                            <a href="https://twitter.com/" target="_blank" class="mx-2 text-light">
+                                <i class="bi bi-twitter"></i>
+                            </a>
+                            <a href="https://facebook.com/" target="_blank" class="mx-2 text-light">
+                                <i class="bi bi-facebook"></i>
+                            </a>
+                            <a href="https://instagram.com/" target="_blank" class="mx-2 text-light">
+                                <i class="bi bi-instagram"></i>
+                            </a>
+                            <a href="https://linkedin.com/" target="_blank" class="mx-2 text-light">
+                                <i class="bi bi-linkedin"></i>
+                            </a>
+                        </div>
+                    </div>
+
+
+                    <nav class="sidebar">
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#resume">Resume</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#portfolio">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#services">Services</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="dropdownMenu" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Dropdown
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider" />
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+
+            <div class="col-12 col-lg-9">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="1.jpg" class="d-block w-100" alt="Slide 1" style="width: 100px; height: 620px;">
+                        </div>
+                    </div>
+                </div>
+                <br><br>
+                <div class="content">
+                    <h2 id="about">About</h2>
+                    <p>
+                        Aspiring Computer Science graduate with a strong foundation in software development.
+                        Seeking an entry-level software engineering position to leverage my coding skills and contribute
+                        to innovative projects.
+                    </p>
+
+                    <div class="row align-items-center">
+
+                        <div class="col-sm-3">
+                            <img src="1.jpg" class="img-fluid rounded" alt="Profile">
+                        </div>
+
+
+                        <div class="col-sm-9">
+                            <h2>UI/UX Designer & Java Developer</h2>
+                            <p>Passionate about creating intuitive user experiences and building robust Java
+                                applications.
+                            </p>
+                            <ul>
+                                <li><i class="bi bi-chevron-right">
+                                        <strong>Birthday:</strong>
+                                        <span>8 July 2002</span>
+                                    </i></li>
+                                <li><i class="bi bi-chevron-right">
+                                        <strong>Website:</strong>
+                                        <span>www.span</span>
+                                    </i></li>
+                                <li><i class="bi bi-chevron-right">
+                                        <strong>Phone:</strong>
+                                        <span>8581815125</span>
+                                    </i></li>
+                                <li><i class="bi bi-chevron-right">
+                                        <strong>City:</strong>
+                                        <span>Vizianagaram</span>
+                                    </i></li>
+                                <li><i class="bi bi-chevron-right">
+                                        <strong>Age:</strong>
+                                        <span>23</span>
+                                    </i></li>
+                                <li><i class="bi bi-chevron-right">
+                                        <strong>Degree:</strong>
+                                        <span>B.tech</span>
+                                    </i></li>
+                                <li><i class="bi bi-chevron-right">
+                                        <strong>Stream:</strong>
+                                        <span>AI&ML</span>
+                                    </i></li>
+                                <li><i class="bi bi-chevron-right">
+                                        <strong>Email:</strong>
+                                        <span>nammivamsi131@gmail.com</span>
+                                    </i></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="content" style="background-color:rgb(245, 252, 255);">
+                        <div class="container mt-4">
+                            <div class="row">
+                                <h2>Skills</h2>
+                                <p>"Master your skills, master your future.Skills are the new currency."</p>
+                                <br><br>
+                                <div class="col-md-6">
+
+                                    <div class="mb-3">
+                                        <div class="d-flex justify-content-between">
+                                            <span>Java</span>
+                                            <span>80%</span>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar bg-primary progress-bar-striped progress-bar-animated"
+                                                role="progressbar" style="width: 80%;" aria-valuenow="80"
+                                                aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="mb-3">
+                                        <div class="d-flex justify-content-between">
+                                            <span>HTML</span>
+                                            <span>100%</span>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar bg-primary progress-bar-striped progress-bar-animated"
+                                                role="progressbar" style="width: 100%;" aria-valuenow="100"
+                                                aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="mb-3">
+                                        <div class="d-flex justify-content-between">
+                                            <span>CSS</span>
+                                            <span>90%</span>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar bg-primary progress-bar-striped progress-bar-animated"
+                                                role="progressbar" style="width: 90%;" aria-valuenow="90"
+                                                aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="col-md-6">
+
+                                    <div class="mb-3">
+                                        <div class="d-flex justify-content-between">
+                                            <span>SQL</span>
+                                            <span>75%</span>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar bg-primary progress-bar-striped progress-bar-animated"
+                                                role="progressbar" style="width: 75%;" aria-valuenow="75"
+                                                aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="mb-3">
+                                        <div class="d-flex justify-content-between">
+                                            <span>PHP</span>
+                                            <span>70%</span>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar bg-primary progress-bar-striped progress-bar-animated"
+                                                role="progressbar" style="width: 70%;" aria-valuenow="70"
+                                                aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><br><br>
+                    <div class="content">
+                        <h2 id="resume">Resume</h2>
+                        <p>
+                            Aspiring Computer Science graduate with a strong foundation in software development.
+                            Seeking an entry-level software engineering position to leverage my coding skills and
+                            contribute
+                            to innovative projects.
+                        </p>
+                        <br><br>
+                        <div class="row">
+                            <!-- HTML -->
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                    <div class="line-content">
+                                        <h5>Summary</h5>
+                                        <p>
+                                            A computer is an electronic device that processes and stores data to perform
+                                            tasks efficiently.
+                                            It helps automate work, solve problems, and connect people worldwide.
+                                        </p>
+                                    </div>
+
+                                    <div class="line-content">
+                                        <h5>Education</h5>
+
+                                        <strong>Bachelor of Technology in Artificial Intelligence & Machine
+                                            Learning</strong><br>
+                                        <strong>AVANTHI INSTITUTE OF ENGINEERING AND TECHNOLOGY</strong><br>
+                                        <strong>2021–2024</strong>
+                                        <p>
+                                            Focused on developing skills in AI algorithms, data analysis, and machine
+                                            learning techniques to solve complex problems and drive innovation.
+                                        </p>
+
+                                        <h5>Diploma in Electrical & Electronics Engineering</h5>
+                                        <strong>G.B.R GOVT POLYTECHNIC</strong><br>
+                                        <strong>2017–2020</strong>
+                                        <p>
+                                            A Diploma in Electrical & Electronics Engineering provides foundational
+                                            knowledge in electrical circuits, machines, power systems, and electronic
+                                            devices. It equips students with practical skills for roles in power
+                                            generation, automation, and maintenance industries.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-md-6">
+                                    <div class="line-content">
+                                        <h5>Professional Experience</h5>
+                                        <p>
+                                            Eager and quick learner with hands-on academic projects and internships in
+                                            the field. Passionate about applying theoretical knowledge to real-world
+                                            challenges and continuously improving skills.
+                                        </p>
+
+                                        <h5>Board of Secondary Education – 10th Class</h5>
+                                        <strong>ZP HIGH SCHOOL</strong><br>
+                                        <strong>2016–2017</strong>
+                                        <p>
+                                            The 10th Class (SSC) examination, conducted by the Board of Secondary
+                                            Education, is a key academic milestone in a student's life. It assesses
+                                            foundational knowledge across core subjects and is essential for pursuing
+                                            higher education.
+                                        </p>
+
+                                        <h5>Academic Projects</h5>
+                                        <strong>Plant Leaf Disease Detection System</strong>
+                                        <p>
+                                            Machine Learning algorithm using Convolutional Neural Network to detect
+                                            plant leaf diseases from images. The system is aimed to assist farmers in
+                                            early detection and treatment.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div><br><br>
+                    <div class="content">
+                          <h2  class="mb-4" id="portfolio">Portfolio</h2>
+                        <div class="content text-center mt-4">
+                            <ul class="nav justify-content-center mb-4">
+                                <li class="nav-item">
+                                    <a class="nav-link active filter-btn" href="#" data-filter="all">ALL</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link filter-btn" href="#" data-filter="app">App</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link filter-btn" href="#" data-filter="product">Product</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link filter-btn" href="#" data-filter="branding">Branding</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link filter-btn" href="#" data-filter="book">Book</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="container py-4">
+                            <div class="row g-4" id="portfolio-cards">
+                                <!-- Use a data-category attribute for filtering -->
+
+                                <!-- App 1 -->
+                                <div class="col-md-4 portfolio-item" data-category="app">
+                                    <div class="card">
+                                        <img src="11.jpg" alt="App 1 Image">
+                                        <div class="overlay">
+                                            <h4>App 1</h4>
+                                            <div class="icons">
+                                                <a href="11.jpg" title="Zoom"><i class="bi bi-zoom-in"></i></a>
+                                                <a href="portfolio-details.html" title="More details"><i
+                                                        class="bi bi-link-45deg"></i></a>
+                                            </div>
+                                            <p>Lorem ipsum dolor sit amet.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- App 2 -->
+                                <div class="col-md-4 portfolio-item" data-category="app">
+                                    <div class="card">
+                                        <img src="15.jpg" alt="App 2 Image">
+                                        <div class="overlay">
+                                            <h4>App 2</h4>
+                                            <div class="icons">
+                                                <a href="15.jpg" title="Zoom"><i class="bi bi-zoom-in"></i></a>
+                                                <a href="portfolio-details.html" title="More details"><i
+                                                        class="bi bi-link-45deg"></i></a>
+                                            </div>
+                                            <p>Lorem ipsum dolor sit amet.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- App 3 -->
+                                <div class="col-md-4 portfolio-item" data-category="app">
+                                    <div class="card">
+                                        <img src="19.jpg" alt="App 3 Image">
+                                        <div class="overlay">
+                                            <h4>App 3</h4>
+                                            <div class="icons">
+                                                <a href="19.jpg" title="Zoom"><i class="bi bi-zoom-in"></i></a>
+                                                <a href="portfolio-details.html" title="More details"><i
+                                                        class="bi bi-link-45deg"></i></a>
+                                            </div>
+                                            <p>Lorem ipsum dolor sit amet.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Product 1 -->
+                                <div class="col-md-4 portfolio-item" data-category="product">
+                                    <div class="card">
+                                        <img src="12.jpg" alt="Product 1 Image">
+                                        <div class="overlay">
+                                            <h4>Product 1</h4>
+                                            <div class="icons">
+                                                <a href="12.jpg" title="Zoom"><i class="bi bi-zoom-in"></i></a>
+                                                <a href="portfolio-details.html" title="More details"><i
+                                                        class="bi bi-link-45deg"></i></a>
+                                            </div>
+                                            <p>Lorem ipsum dolor sit amet.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Product 2 -->
+                                <div class="col-md-4 portfolio-item" data-category="product">
+                                    <div class="card">
+                                        <img src="16.jpg" alt="Product 2 Image">
+                                        <div class="overlay">
+                                            <h4>Product 2</h4>
+                                            <div class="icons">
+                                                <a href="16.jpg" title="Zoom"><i class="bi bi-zoom-in"></i></a>
+                                                <a href="portfolio-details.html" title="More details"><i
+                                                        class="bi bi-link-45deg"></i></a>
+                                            </div>
+                                            <p>Lorem ipsum dolor sit amet.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Product 3 -->
+                                <div class="col-md-4 portfolio-item" data-category="product">
+                                    <div class="card">
+                                        <img src="20.jpg" alt="Product 3 Image">
+                                        <div class="overlay">
+                                            <h4>Product 3</h4>
+                                            <div class="icons">
+                                                <a href="20.jpg" title="Zoom"><i class="bi bi-zoom-in"></i></a>
+                                                <a href="portfolio-details.html" title="More details"><i
+                                                        class="bi bi-link-45deg"></i></a>
+                                            </div>
+                                            <p>Lorem ipsum dolor sit amet.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Branding 1 -->
+                                <div class="col-md-4 portfolio-item" data-category="branding">
+                                    <div class="card">
+                                        <img src="13.jpg" alt="Branding 1 Image">
+                                        <div class="overlay">
+                                            <h4>Branding 1</h4>
+                                            <div class="icons">
+                                                <a href="13.jpg" title="Zoom"><i class="bi bi-zoom-in"></i></a>
+                                                <a href="portfolio-details.html" title="More details"><i
+                                                        class="bi bi-link-45deg"></i></a>
+                                            </div>
+                                            <p>Lorem ipsum dolor sit amet.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Branding 2 -->
+                                <div class="col-md-4 portfolio-item" data-category="branding">
+                                    <div class="card">
+                                        <img src="17.jpg" alt="Branding 2 Image">
+                                        <div class="overlay">
+                                            <h4>Branding 2</h4>
+                                            <div class="icons">
+                                                <a href="17.jpg" title="Zoom"><i class="bi bi-zoom-in"></i></a>
+                                                <a href="portfolio-details.html" title="More details"><i
+                                                        class="bi bi-link-45deg"></i></a>
+                                            </div>
+                                            <p>Lorem ipsum dolor sit amet.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Branding 3 -->
+                                <div class="col-md-4 portfolio-item" data-category="branding">
+                                    <div class="card">
+                                        <img src="21.jpg" alt="Branding 3 Image">
+                                        <div class="overlay">
+                                            <h4>Branding 3</h4>
+                                            <div class="icons">
+                                                <a href="21.jpg" title="Zoom"><i class="bi bi-zoom-in"></i></a>
+                                                <a href="portfolio-details.html" title="More details"><i
+                                                        class="bi bi-link-45deg"></i></a>
+                                            </div>
+                                            <p>Lorem ipsum dolor sit amet.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Book 1 -->
+                                <div class="col-md-4 portfolio-item" data-category="book">
+                                    <div class="card">
+                                        <img src="14.jpg" alt="Book 1 Image">
+                                        <div class="overlay">
+                                            <h4>Book 1</h4>
+                                            <div class="icons">
+                                                <a href="14.jpg" title="Zoom"><i class="bi bi-zoom-in"></i></a>
+                                                <a href="portfolio-details.html" title="More details"><i
+                                                        class="bi bi-link-45deg"></i></a>
+                                            </div>
+                                            <p>Lorem ipsum dolor sit amet.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Book 2 -->
+                                <div class="col-md-4 portfolio-item" data-category="book">
+                                    <div class="card">
+                                        <img src="18.jpg" alt="Book 2 Image">
+                                        <div class="overlay">
+                                            <h4>Book 2</h4>
+                                            <div class="icons">
+                                                <a href="18.jpg" title="Zoom"><i class="bi bi-zoom-in"></i></a>
+                                                <a href="portfolio-details.html" title="More details"><i
+                                                        class="bi bi-link-45deg"></i></a>
+                                            </div>
+                                            <p>Lorem ipsum dolor sit amet.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Book 3 -->
+                                <div class="col-md-4 portfolio-item" data-category="book">
+                                    <div class="card">
+                                        <img src="22.jpg" alt="Book 3 Image">
+                                        <div class="overlay">
+                                            <h4>Book 3</h4>
+                                            <div class="icons">
+                                                <a href="22.jpg" title="Zoom"><i class="bi bi-zoom-in"></i></a>
+                                                <a href="portfolio-details.html" title="More details"><i
+                                                        class="bi bi-link-45deg"></i></a>
+                                            </div>
+                                            <p>Lorem ipsum dolor sit amet.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <script>
+                            document.addEventListener("DOMContentLoaded", function () {
+                                const filterBtns = document.querySelectorAll(".filter-btn");
+                                const items = document.querySelectorAll(".portfolio-item");
+
+                                filterBtns.forEach(btn => {
+                                    btn.addEventListener("click", (e) => {
+                                        e.preventDefault();
+                                        filterBtns.forEach(b => b.classList.remove("active"));
+                                        btn.classList.add("active");
+                                        const filter = btn.getAttribute("data-filter");
+                                        items.forEach(item => {
+                                            const cat = item.getAttribute("data-category");
+                                            if (filter === "all" || filter === cat) {
+                                                item.style.display = "";
+                                            } else {
+                                                item.style.display = "none";
+                                            }
+                                        });
+                                    });
+                                });
+                            });
+                        </script>
+
+
+                    </div>
+                    <div class="content">
+                        <h2 class="mb-4" id="services">Services</h2>
+
+                        <div class="row">
+
+                            <div class="col-md-4 mb-4">
+                                <div class="card h-100 text-center border-0 shadow-sm">
+                                    <div class="card-body">
+                                        <i class="bi bi-code-slash fs-1 text-primary"></i>
+                                        <h5 class="card-title mt-3">Web Development</h5>
+                                        <p class="card-text">Building responsive and interactive websites using HTML,
+                                            CSS, JavaScript, and Bootstrap.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-md-4 mb-4">
+                                <div class="card h-100 text-center border-0 shadow-sm">
+                                    <div class="card-body">
+                                        <i class="bi bi-brush fs-1 text-success"></i>
+                                        <h5 class="card-title mt-3">UI/UX Design</h5>
+                                        <p class="card-text">Designing user-friendly interfaces with a focus on
+                                            simplicity, usability, and visual aesthetics.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-md-4 mb-4">
+                                <div class="card h-100 text-center border-0 shadow-sm">
+                                    <div class="card-body">
+                                        <i class="bi bi-gear fs-1 text-danger"></i>
+                                        <h5 class="card-title mt-3">Java Programming</h5>
+                                        <p class="card-text">Developing Java applications and implementing
+                                            object-oriented programming concepts.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-md-4 mb-4">
+                                <div class="card h-100 text-center border-0 shadow-sm">
+                                    <div class="card-body">
+                                        <i class="bi bi-database fs-1 text-warning"></i>
+                                        <h5 class="card-title mt-3">Database Management (SQL)</h5>
+                                        <p class="card-text">Creating and managing structured databases using SQL for
+                                            efficient data storage and retrieval.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-md-4 mb-4">
+                                <div class="card h-100 text-center border-0 shadow-sm">
+                                    <div class="card-body">
+                                        <i class="bi bi-file-code fs-1 text-info"></i>
+                                        <h5 class="card-title mt-3">Backend Development (PHP)</h5>
+                                        <p class="card-text">Developing dynamic websites and server-side logic using PHP
+                                            for form handling and data processing.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="content">
+                        <div class="container mt-5" id="contact">
+                            <h2 id="contact">Contact Me</h2>
+                            <br><br><br>
+                            <div class="row justify-content-center">
+
+                                <div class="col-md-5 mb-4">
+                                    <h5><i class="bi bi-person-circle me-2"></i>Your Name</h5>
+                                    <p><i class="bi bi-geo-alt me-2"></i>City, State, Country</p>
+                                    <p><i class="bi bi-envelope me-2"></i><a
+                                            href="mailto:youremail@example.com">youremail@example.com</a></p>
+                                    <p><i class="bi bi-phone me-2"></i>+91 98765 43210</p>
+
+                                    <div class="mt-3">
+                                        <a href="https://twitter.com/" class="text-dark me-3" target="_blank"><i
+                                                class="bi bi-twitter"></i></a>
+                                        <a href="https://facebook.com/" class="text-dark me-3" target="_blank"><i
+                                                class="bi bi-facebook"></i></a>
+                                        <a href="https://instagram.com/" class="text-dark me-3" target="_blank"><i
+                                                class="bi bi-instagram"></i></a>
+                                        <a href="https://linkedin.com/" class="text-dark me-3" target="_blank"><i
+                                                class="bi bi-linkedin"></i></a>
+                                    </div><br>
+                                    <iframe
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.4887314944676!2d76.75349521426045!3d11.66427959178611!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba85c10a229ce15%3A0x3d64c1f23a1c3d05!2sCoimbatore%2C%20Tamil%20Nadu%2C%20India!5e0!3m2!1sen!2sus!4v1696000000000!5m2!1sen!2sus"
+                                        width="70%" height="150" style="border:0; border-radius: 8px;"
+                                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                                    </iframe>
+                                </div>
+
+
+                                <div class="col-md-7">
+                                    <form>
+                                        <div class="mb-3">
+                                            <label for="name" class="form-label">Your Name</label>
+                                            <input type="text" class="form-control" id="name"
+                                                placeholder="Enter your name" required>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="email" class="form-label">Your Email</label>
+                                            <input type="email" class="form-control" id="email"
+                                                placeholder="Enter your email" required>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="message" class="form-label">Message</label>
+                                            <textarea class="form-control" id="message" rows="4"
+                                                placeholder="Type your message..." required></textarea>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary">Send Message</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <footer>© Copyright iPortfolio All Rights Reserved
+
+                        Designed by BootstrapMade Distributed by Vamsi</footer>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
